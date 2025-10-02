@@ -2,7 +2,7 @@
 
 This is a simple and responsive **Survey Form** built using HTML and CSS.
 
-[https://github.com/user-attachments/assets/99ed26d9-366d-47f1-81f9-b43e44172f0f]
+![Survey Form Preview](https://github.com/user-attachments/assets/99ed26d9-366d-47f1-81f9-b43e44172f0f)
 
 ## 📌 Project Overview
 
