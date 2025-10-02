@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 id="title"> Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <main>
+            <form id="survey-form" action="#">
+                <div class="form">
+                    <label id="name-label">
+                        <p> Name</p>
+                        <input class="search" id="name" type="text" placeholder="Enter your Name" required>
+                    </label>
+                </div>
+                <div class="form">
+
+                    <label id="email-label">
+                        <p> Email </p>
+                        <input class="search" id="email" type="email" placeholder="Enter your Email" required>
+                    </label>
+                </div>
+                <div class="form">
+                    <label id="number-label">
+                        <p>Age (optional)</p>
+                        <input class="search" id="number" type="number" placeholder="Age" min="10" max="100">
+                    </label>
+                </div>
+                <div class="form">
+                    <label id="label-dropdown">
+                        <p> Which option best describes your current role?</p>
+                        <select class="search" id="dropdown" placeholder="Select current role">
+                            <option value="Select current role">Select current role</option>
+                            <option>Student</option>
+                            <option>Full Time Job</option>
+                            <option>Full Time Learner</option>
+                            <option>Prefer not to say</option>
+                            <option>Other</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="form">
+                    <label for="radio-select" id="label-radio">
+                        <p>Would you recommend freeCodeCamp to a friend?</p>
+                        <legend><input name="radio-select" value="radio-select" type="radio" checked> Definitely
+                        </legend>
+                        <legend><input name="radio-select" value="radio-select" type="radio"> Maybe</legend>
+                        <legend><input name="radio-select" value="radio-select" type="radio"> Not sure</legend>
+                    </label>
+                </div>
+                <div class="form">
+                    <label id="label-search">
+                        <p> What is your favorite feature of freeCodeCamp?</p>
+                        <select class="search ">
+                            <option value="Select an option">Select an option</option>
+                            <option>Challenges</option>
+                            <option>Projects</option>
+                            <option>Community</option>
+                            <option>Open Source</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="form">
+                    <label for="checkbox" id="label-checkbox">
+                        <p>What would you like to see improved? (Check all that apply)</p>
+                        <legend><input value="checkbox" type="checkbox">Front-end Projects</legend>
+                        <legend><input value="checkbox" type="checkbox">Back-end Projects/legend>
+                            <legend><input value="checkbox" type="checkbox">Data Visualization</legend>
+                            <legend><input value="checkbox" type="checkbox">Challenges</legend>
+                            <legend><input value="checkbox" type="checkbox">Open Source Community</legend>
+                            <legend><input value="checkbox" type="checkbox">Gitter help rooms</legend>
+                            <legend><input value="checkbox" type="checkbox">Videos</legend>
+                            <legend><input value="checkbox" type="checkbox">City Meetups</legend>
+                            <legend><input value="checkbox" type="checkbox">Wiki</legend>
+                            <legend><input value="checkbox" type="checkbox">Forum</legend>
+                            <legend><input value="checkbox" type="checkbox">Additional Courses</legend>
+                    </label>
+                </div>
+                <div class="form " id="textarea">
+                    <p>Any comments or suggestions?</p>
+                    <textarea rows="3" cols="30">Enter your comment here...</textarea>
+                </div>
+                <footer>
+                    <input type="submit" value="Submit" id="submit">
+                </footer>
+            </form>
+        </main>
+
+
+    </div>
+</body>
+
+</html>
